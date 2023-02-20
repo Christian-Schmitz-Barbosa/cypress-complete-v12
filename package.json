@@ -4,7 +4,9 @@
   "description": "Complete Cypress V12 Course ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:report": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Chirstian-Schmitz-Barbosa/cypress-complete-v12/issues"
   },
-  "homepage": "https://github.com/Chirstian-Schmitz-Barbosa/cypress-complete-v12#readme"
+  "homepage": "https://github.com/Chirstian-Schmitz-Barbosa/cypress-complete-v12#readme",
+  "devDependencies": {
+    "cypress": "^12.4.1"
+  }
 }
