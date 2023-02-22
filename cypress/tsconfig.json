@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "ES6",
+    "lib": [
+      "ES6",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "./src/**/*.ts",
+    "support/step_definitions/WebDriverUni/Homepage_Steps.js",
+    "support/step_definitions/automation-test-store/contactUs_Steps.js",
+    "support/step_definitions/automation-test-store/Homepage_Steps.js",
+    "support/step_definitions/WebDriverUni/contactUs_Steps.js"
+  ]
+}

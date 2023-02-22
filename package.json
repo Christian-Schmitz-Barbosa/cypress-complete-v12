@@ -6,7 +6,13 @@
   "scripts": {
     "cy:test": "cypress run",
     "cy:open": "cypress open",
-    "cy:report": "cypress run"
+    "cy:report": "cypress run --browser chrome --spec 'cypress/e2e/**/*.feature' && node cucumber-html-report.js",
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:firefox": "cypress run --browser firefox",
+    "cy:edge": "cypress run --browser edge",
+    "cy:focus": "cypress run -e TAGS=@focus",
+    "cy:ats": "cypress run -e TAGS=@Automation-test-Store",
+    "cy:wdu": "cypress run -e TAGS=@Web-design-Unit"
   },
   "repository": {
     "type": "git",
@@ -22,6 +28,27 @@
   },
   "homepage": "https://github.com/Chirstian-Schmitz-Barbosa/cypress-complete-v12#readme",
   "devDependencies": {
-    "cypress": "^12.4.1"
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.4.1",
+    "multiple-cucumber-html-reporter": "^3.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js",
+    "html": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/cucumber-reports.html"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-ndjson/cucumber-messages.ndjson"
+    },
+    "json": {
+      "enabled": true,
+      "formatter": "cucumber-json-formatter",
+      "output": "cypress/reports/cucumber-json/cucumber-reports.json"
+    }
   }
 }

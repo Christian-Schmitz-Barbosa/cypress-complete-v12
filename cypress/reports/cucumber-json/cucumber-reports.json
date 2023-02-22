@@ -1,0 +1,640 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "Pre Conditions",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the automation test store home page",
+            "result": {
+              "duration": 5981000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Click on the contact us button ats",
+            "result": {
+              "duration": 1449000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "automation-test-store;valid-and-invalid-contact-us-form-submission;;2",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Valid and Invalid Contact Us Form Submission",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "I type the first name Christian ats",
+            "result": {
+              "duration": 482000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type the email 'christian.schmitz1@hotmail.com' ats",
+            "result": {
+              "duration": 774000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "I type the Enquiry 'Mensagem teste' ats",
+            "result": {
+              "duration": 524000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the submit button ats",
+            "result": {
+              "duration": 3914000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I see the Message 'Your enquiry has been successfully sent to the store owner!' ats",
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "Pre Conditions",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the automation test store home page",
+            "result": {
+              "duration": 1684000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Click on the contact us button ats",
+            "result": {
+              "duration": 7014000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "automation-test-store;valid-and-invalid-contact-us-form-submission;;3",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Valid and Invalid Contact Us Form Submission",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "I type the first name d ats",
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type the email 'diennifer1hotmail.com' ats",
+            "result": {
+              "duration": 579000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "I type the Enquiry 'a' ats",
+            "result": {
+              "duration": 287000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the submit button ats",
+            "result": {
+              "duration": 4950000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I see the Message 'Name must be between 3 and 32 characters!' ats",
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "Pre Conditions",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the automation test store home page",
+            "result": {
+              "duration": 5243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Click on the contact us button ats",
+            "result": {
+              "duration": 1846000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "automation-test-store;just-click-ont-submit-button-whitout-type-any-form-field;;2",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Just Click ont Submit Button Whitout type any form field",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click the submit button ats",
+            "result": {
+              "duration": 1105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I see this tree messages 'First name: is required field! Name must be between 3 and 32 characters!' 'Email: is required field! E-Mail Address does not appear to be valid!' 'Enquiry: is required field! Enquiry must be between 10 and 3000 characters!' ats",
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-store",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Automation Test Store",
+    "uri": "cypress\\e2e\\automation-test-store\\contact-us.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "Pre Configs",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the Web Driver Univesity Home page",
+            "result": {
+              "duration": 2108000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I Click on the contact us button wdu",
+            "result": {
+              "duration": 1006000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "webdriver-university-contact-us;validate-contact-us-form;;2",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Validate Contact us Form",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type the first name Ted wdu",
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "I type the last name 'Robb' wdu",
+            "result": {
+              "duration": 247000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "I type the email adress 'tedrob@gmail.com' wdu",
+            "result": {
+              "duration": 419000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type the message in the comment field 'this site is a shit' wdu",
+            "result": {
+              "duration": 450000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on the submit button wdu",
+            "result": {
+              "duration": 1733000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "It should be visible the message 'Thank You for your Message!' wdu",
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "Pre Configs",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the Web Driver Univesity Home page",
+            "result": {
+              "duration": 320000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I Click on the contact us button wdu",
+            "result": {
+              "duration": 347000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "webdriver-university-contact-us;validate-contact-us-form;;3",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Validate Contact us Form",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type the first name Mona wdu",
+            "result": {
+              "duration": 240000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "I type the last name 'Lisa' wdu",
+            "result": {
+              "duration": 216000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "I type the email adress 'monalisa@gmail.com' wdu",
+            "result": {
+              "duration": 416000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type the message in the comment field 'this site is perfect' wdu",
+            "result": {
+              "duration": 491000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on the submit button wdu",
+            "result": {
+              "duration": 1593000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "It should be visible the message 'Thank You for your Message!' wdu",
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "Pre Configs",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the Web Driver Univesity Home page",
+            "result": {
+              "duration": 309000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I Click on the contact us button wdu",
+            "result": {
+              "duration": 354000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "webdriver-university-contact-us;validate-contact-us-form;;4",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Validate Contact us Form",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type the first name Error wdu",
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "I type the last name 'Error' wdu",
+            "result": {
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "I type the email adress 'Error' wdu",
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type the message in the comment field 'Error' wdu",
+            "result": {
+              "duration": 233000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on the submit button wdu",
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "It should be visible the message 'Error' wdu",
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "webdriver-university-contact-us",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "WebDriver University Contact Us",
+    "uri": "cypress\\e2e\\WebDriverUni\\contact-us.feature"
+  }
+]
