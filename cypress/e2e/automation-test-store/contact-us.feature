@@ -20,6 +20,8 @@ Feature: Automation Test Store
             | Christian | christian.schmitz1@hotmail.com | Mensagem teste | Your enquiry has been successfully sent to the store owner! |
             | d         | diennifer1hotmail.com          | a              | Name must be between 3 and 32 characters!                   |
 
+    Scenario Outline: Valid And Invalid Contact Us Form submission --- Variables, Promises and Nested Closures ---
+        And Validate the Form Field "First Name"
     Scenario Outline: Just Click ont Submit Button Whitout type any form field
         And I click the submit button ats
         Then I see this tree messages '<message_name>' '<message_email>' '<message_enquiry>' ats

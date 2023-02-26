@@ -1,0 +1,2 @@
+This project is from the course "The Complete Cypress v12 Course: From Zero to Expert! [2023]" and the authors name is Gianni Brunno.
+The link to this course: https://www.udemy.com/course/cypress-io-master-class/

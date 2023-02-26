@@ -23,6 +23,22 @@ When(`I type the email {string} ats`, (email) => {
 When(`I type the Enquiry {string} ats`, (message) => {
     contactUs.type_Comment(message)
 })
+When(`Validate the Form Field "First Name"`, () => {
+    //Uses Cypress commands and chaining
+    cy.contains("#ContactUsFrm", "Contact Us Form").find("#field_11").should("contain", "First name")
+
+    //JQuery Approach
+    cy.contains("#ContactUsFrm", "Contact Us Form").then(text => {
+        const firstNameText = text.find("#field_11").text()
+        expect(firstNameText).to.contain("First name")
+        //Embedded Commands (Closure)
+
+        cy.get("#field_11").then(text => {
+            cy.log(text.text())
+            cy.log(text)
+        })
+    })
+})
 
 When(`I click the submit button ats`, () => {
     contactUs.submit()
